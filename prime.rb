@@ -8,7 +8,7 @@ end
   range = [*1..number]
 
   for item in range
-    if number % item == 0 && number % item != 1 && number % item != number
+    if number % item == 0 && number / item != 1 && number / item != number
       false
      end
   end
