@@ -3,6 +3,7 @@ def prime?(number)
 if number < 1
   false
 end
+
   range = [*1..number]
 
   for item in range
