@@ -2,7 +2,7 @@
 def prime?(number)
 if number < 0
   false
-end  
+end
   range = [*1..number]
 
   for item in range
