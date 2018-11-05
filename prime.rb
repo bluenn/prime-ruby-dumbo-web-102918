@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-if number < 0
+if number < 1
   false
 end
   range = [*1..number]
