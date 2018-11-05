@@ -6,7 +6,7 @@ def prime(number)
     if (number % item == 0 && item != 1 && item != number)
       false
      end
-  end   
+  end
 
   true
-end    
+end
