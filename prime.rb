@@ -1,6 +1,8 @@
 # Add  code here!
-def prime?(number > 0)
-
+def prime?(number)
+if number < 0
+  false
+end  
   range = [*1..number]
 
   for item in range
