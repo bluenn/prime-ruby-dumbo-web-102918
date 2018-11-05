@@ -1,5 +1,5 @@
 # Add  code here!
-def prime(number)
+def prime?(number)
   range = [*1..number]
 
   for item in range
