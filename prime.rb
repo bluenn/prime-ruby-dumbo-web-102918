@@ -1,9 +1,10 @@
 # Add  code here!
 def prime?(number)
-  range = [*1..number]
+  absolute_num = number.abs
+  range = [*1..absolute]
 
   for item in range
-    if (number % item == 0 && item != 1 && item != number)
+    if (absolute_num % item == 0 && item != 1 && item != absolute_num)
       false
      end
   end
