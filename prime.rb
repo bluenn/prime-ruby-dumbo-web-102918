@@ -1,6 +1,7 @@
 # Add  code here!
 def prime?(number)
-if number < 1
+# 1 is not prime as prime has two divisors, itself and 1
+if number <= 1
   return false
 end
 
