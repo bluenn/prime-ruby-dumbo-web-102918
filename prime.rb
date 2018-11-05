@@ -7,11 +7,10 @@ end
 
   range = [*1..number]
 
-  for item in range
-    if number % item == 0 && (number / item != 1 || number / item != number)
+  for range[1..-2].each do |item|
+    if number % item == 0
       false
      end
   end
-
   true
 end
