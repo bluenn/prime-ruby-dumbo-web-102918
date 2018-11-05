@@ -9,7 +9,7 @@ end
 
   range[1..-2].each do |item|
     if number % item == 0
-      false
+      return false
      end
   end
   true
