@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
 if number < 1
-  false
+  return false
 end
 
   range = [*1..number]
